@@ -23,8 +23,8 @@ public class StringVowelReverse {
                 right--;
             }
         }
-        String reverseString = String.valueOf(ch);
-        System.out.println(reverseString);
+        String resultString = String.valueOf(ch);
+        System.out.println(resultString);
 
     }
     public static boolean isVowel(char ch){
