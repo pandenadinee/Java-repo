@@ -14,12 +14,8 @@ public class StringPlallindrome {
                 System.out.println("s is not pallindrome");
                 return;
             }
-
             left++;
             right--;
-
         }
-
-
     }
 }
