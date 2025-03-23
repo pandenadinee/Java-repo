@@ -6,21 +6,20 @@ public class NumberPalindrome {
         System.out.println(isPalindrome(num));
 
     }
-    public static boolean isPalindrome(int num){
+
+    public static boolean isPalindrome(int num) {
         int temp = num;
         int sum = 0;
-        while (num > 0){
-            int reminder  = num % 10;
+        while (num > 0) {
+            int reminder = num % 10;
             sum = (sum * 10) + reminder;
             num = num / 10;
-
         }
-        if (sum == temp){
-            System.out.println("number is palindrome");
+        if (sum == temp) {
+            System.out.println("Number is palindrome");
             return true;
-        }
-        else {
-            System.out.println("number is not palindrome");
+        } else {
+            System.out.println("Number is not palindrome");
             return false;
         }
     }
