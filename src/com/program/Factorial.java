@@ -1,17 +1,18 @@
 package com.program;
 
-public class Factorial {
+public class Factor {
     public static void main(String[] args) {
         int num = 10;
-        System.out.println(factor(num));
+        int result = factorial(num);
+        System.out.println("factor of num is :" + result);
 
     }
 
-    public static int factor(int num) {
-        int sum = 1;
+    public static int factorial(int num) {
+        int product = 1;
         for (int i = 1; i <= num; i++) {
-            sum = sum * i;
+            product = product * i;
         }
-        return sum;
+        return product;
     }
 }
