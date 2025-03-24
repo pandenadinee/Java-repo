@@ -1,6 +1,6 @@
 package com.program;
 
-public class Factor {
+public class Factorial {
     public static void main(String[] args) {
         int num = 10;
         int result = factorial(num);
