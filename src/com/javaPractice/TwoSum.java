@@ -10,9 +10,9 @@ public class TwoSum {
        int[] arr = {2,7,11,15};
        int target = 26;
 
-//        twoSum(arr,target);
+        twoSum(arr,target);
 
-        twoSumTarget(arr,target);
+//        twoSumTarget(arr,target);
 
     }
     public static int[] twoSum(int[] arr , int target){
