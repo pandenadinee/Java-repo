@@ -3,7 +3,7 @@ package com.ArrayProgram;
 
 public class ArmStrongNumber {
     public static void main(String[] args) {
-        int num = 153;
+        int num = 155;
         boolean result = isArmStrong(num);
         System.out.println(result);
 
