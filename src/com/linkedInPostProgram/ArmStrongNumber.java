@@ -2,7 +2,7 @@ package com.linkedInPostProgram;
 
 public class ArmStrongNumber {
     public static void main(String[] args) {
-        int number = 153;
+        int number = 1523;
         boolean result = isArmStrong(number);
         System.out.println(result);
 
