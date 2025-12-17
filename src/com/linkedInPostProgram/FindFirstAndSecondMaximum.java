@@ -2,7 +2,7 @@ package com.linkedInPostProgram;
 
 public class FindFirstAndSecondMaximum {
     public static void main(String[] args) {
-        int[] arr = {4,7,3,9,1,5,6};
+        int[] arr = {4,7,3,9,1,5,6,10};
         miniumum(arr);
 
     }
